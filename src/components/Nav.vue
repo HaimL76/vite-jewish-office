@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <router-link to="/">Vite Recipe Book</router-link>
+    <!--<router-link to="/">Vite Recipe Book</router-link>-->
     <ul>
       <li v-for="route in routes" :key="route.path">
         <router-link :to="route.to" :class="{ active: isActive(route.to) }">{{route.text}}</router-link>
