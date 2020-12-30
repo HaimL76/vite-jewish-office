@@ -7,8 +7,18 @@
     margin-top: 60px;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 li {
     float: left;
-    list-style: none;
     width: 10vw;
+}
+
+li a {
+    text-decoration: none;
 }
