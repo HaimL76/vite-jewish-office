@@ -15,8 +15,8 @@ import { useRouter } from "vue-router";
 export default {
   setup() {
     const routes = [
-      { to: "/jupiter", text: "Ingredients" },
-      { to: "/world", text: "Recipes" }
+      { to: "/info", text: "מידע אישי" },
+      { to: "/personal", text: "הדף שלי" }
     ];
     const router = useRouter();
     const activeRoute = computed(() => router.currentRoute.value.path);
